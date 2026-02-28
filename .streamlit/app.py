@@ -67,7 +67,7 @@ st.markdown("""
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 # 모델 선택: 기본 llama3-8b-8192, 성능 위해 llama-3.3-70b-versatile로 변경 가능
-MODEL = "llama3-8b-8192"  # 또는 "llama-3.3-70b-versatile"
+MODEL = "llama-3.3-70b-versatile"  # 또는 "llama-3.3-70b-versatile"
 
 # 시스템 프롬프트: 츤데레 성격 반영 (기본은 딱딱하게 코딩 설명, 감정 시 위로)
 SYSTEM_PROMPT = """
